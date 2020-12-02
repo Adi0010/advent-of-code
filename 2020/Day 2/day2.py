@@ -12,6 +12,7 @@ with open('/Users/adityakoli/Desktop/Projects/advent-of-code/2020/Day 2/input.tx
         hi = int(g[1])
         c = g[2]
         word = g[3]
+        
         if word.count(c) in range(lo, hi+1):
             count1 += 1
 
