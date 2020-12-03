@@ -5,7 +5,7 @@ count2 = 0
 
 reg = re.compile(r'(\d+)-(\d+) ([a-z]): ([a-z]+)')
 
-with open('/Users/adityakoli/Desktop/Projects/advent-of-code/2020/Day 2/input.txt') as data:
+with open('input.txt') as data:
     for d in data:
         g = reg.match(d).groups()
         lo = int(g[0])
