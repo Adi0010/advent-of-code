@@ -1,6 +1,6 @@
 import fileinput
 part1, part2 = 0, 0
-with open('/Users/adityakoli/Desktop/Projects/advent-of-code/2015/Day 2/input.txt') as input:
+with open('input.txt') as input:
     for line in input:
         l,w,h = [int(i) for i in line.split('x')]
         area = 2*l*w + 2*w*h + 2*h*l
